@@ -1,0 +1,303 @@
+.background-image-contact {
+  min-height: 100vh;
+  background-image: url("../../assets/myimg/drew-beamer-kUHfMW8awpE-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 0.5s;
+}
+
+.title-contact-wrapper {
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.title-contact-wrapper h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.title-contact-wrapper h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.social-contact-wrapper {
+  padding: 30px 40px 30px 40px;
+  background-color: rgb(215, 215, 215);
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.586),
+    4px 4px 5px rgba(0, 0, 0, 0.505);
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.social-contact-wrapper p {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.email-wrapper {
+  margin-top: 10px;
+}
+
+.email-wrapper input {
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(215, 215, 215);
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.586),
+    4px 4px 5px rgba(0, 0, 0, 0.505);
+  border: none;
+  transition: all 0.5s;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.email-wrapper input:hover {
+  box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.499),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.471);
+  border: none;
+}
+.email-wrapper input:active {
+  border: none;
+  box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.499),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.471);
+  outline: none;
+}
+.email-wrapper input:focus {
+  border: none;
+  box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.499),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.471);
+  outline: none;
+}
+.message-wrapper {
+  margin-left: 30px;
+}
+.message-wrapper textarea {
+  word-wrap: break-all;
+  width: 100%;
+  max-height: 65%;
+  border-radius: 30px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(215, 215, 215);
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.586),
+    4px 4px 5px rgba(0, 0, 0, 0.505);
+  border: none;
+  resize: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.message-wrapper textarea:hover {
+  box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.499),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.471);
+  border: none;
+}
+.message-wrapper textarea:active {
+  border: none;
+  box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.499),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.471);
+  outline: none;
+}
+.message-wrapper textarea:focus {
+  border: none;
+  box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.499),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.471);
+  outline: none;
+}
+.btn-message-wrapper {
+  max-width: 100%;
+}
+.btn-message-wrapper button {
+  background-color: rgb(214, 214, 214);
+  margin-top: 20px;
+  transition: 0.4s;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  border-bottom-right-radius: 1px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transform: translateY(0);
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+}
+
+.btn-message-wrapper button:hover {
+  box-shadow: -4px -4px 5px white, 4px 4px 5px rgba(0, 0, 0, 0.505);
+  background-color: rgb(75, 75, 75);
+  transform: translateY(-7px);
+  color: white;
+}
+
+.btn-message-wrapper button:active {
+  transform: translateY(0);
+  box-shadow: -4px -4px 5px white, 4px 4px 5px rgba(0, 0, 0, 0.505);
+  background-color: rgb(75, 75, 75);
+  color: white;
+}
+
+.error-text-name {
+  color: red;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-bottom: -5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}
+
+@media (max-width: 770px) {
+  .title-contact-wrapper {
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+
+  .title-contact-wrapper h1 {
+    font-size: 1.1rem;
+  }
+
+  .title-contact-wrapper h2 {
+    font-size: 1.9rem;
+  }
+
+  .social-contact-wrapper {
+    padding: 30px 0px 30px 0px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+
+  .social-contact-wrapper p {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+
+  .email-wrapper {
+    margin-top: 10px;
+  }
+
+  .email-wrapper input {
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+
+  .message-wrapper {
+    margin-left: 10px;
+  }
+
+  .message-wrapper textarea {
+    width: 100%;
+    max-height: 65%;
+    padding: 10px 10px 10px 10px;
+    font-size: 0.8rem;
+  }
+
+  .btn-message-wrapper {
+    max-width: 100%;
+  }
+
+  .btn-message-wrapper button {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 0.8rem;
+    transform: translateY(0);
+    text-align: right;
+    display: flex;
+    margin-left: auto;
+  }
+
+  .error-text-name {
+    font-size: 0.8rem;
+    margin-bottom: -5px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 430px) {
+  .title-contact-wrapper {
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+
+  .title-contact-wrapper h1 {
+    font-size: 1.1rem;
+  }
+
+  .title-contact-wrapper h2 {
+    font-size: 1.9rem;
+  }
+
+  .social-contact-wrapper {
+    padding: 30px 0px 30px 0px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .social-contact-wrapper p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .email-wrapper {
+    margin-top: 10px;
+  }
+
+  .email-wrapper input {
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .message-wrapper {
+    margin-left: 10px;
+  }
+
+  .message-wrapper textarea {
+    width: 100%;
+    max-height: 65%;
+    padding: 10px 10px 10px 10px;
+    font-size: 0.8rem;
+  }
+
+  .btn-message-wrapper {
+    max-width: 100%;
+  }
+
+  .btn-message-wrapper button {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 0.8rem;
+    transform: translateY(0);
+    text-align: right;
+    display: flex;
+    margin-left: auto;
+  }
+
+  .error-text-name {
+    font-size: 0.8rem;
+    margin-bottom: -5px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+  }
+}

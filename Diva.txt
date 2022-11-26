@@ -1,0 +1,37 @@
+  function main(arr, sum) {
+    let isTrue = false;
+    let result = 0;
+    for (let i = 0; i < arr.length; i++) {
+      let number1 = arr[i];
+      for (let i = 0; i < arr.length; i++) {
+        result = number1 + arr[i];
+        if (result === sum) {
+          return (isTrue = true);
+        } else {
+          isTrue = false;
+        }
+      }
+    }
+    return isTrue;
+  }
+
+  console.log(main([0, 7, 7, 5, 23, 414], 15));
+
+  function main(arr, sum) {
+    let isTrue = false;
+    let result = 0;
+    for (let i = 0; i < arr.length; i++) {
+      let number1 = arr[i];
+      for (let i = 0; i < arr.length; i++) {
+        result = number1 + arr[i];
+        if (result === sum) {
+          return (isTrue = true);
+        } else {
+          isTrue = false;
+        }
+      }
+    }
+    return isTrue;
+  }
+
+  console.log(main([2, 3, 14, 19, 5], 7));

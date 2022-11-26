@@ -5,6 +5,9 @@ import Home from "./pages/home/Home";
 import Contact from "./pages/contact/Contact";
 import AboutMe from "./pages/aboutMe/AboutMe";
 import Portofolio from "./pages/portofolio/Portofolio";
+import PortofolioDetail from "./pages/portofolioDetail/PortofolioDetail";
+import Loading from "./pages/loading/Loading";
+import { ContactUs } from "./pages/contact/ContactUs";
 import "./App.css";
 
 const App = () => {
@@ -14,8 +17,14 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/portofolio" element={<Portofolio />}></Route>
+        <Route
+          path="/portofolio-detail/:id"
+          element={<PortofolioDetail />}
+        ></Route>
         <Route path="/about-me" element={<AboutMe />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/contactUs" element={<ContactUs />}></Route>
+        <Route path="/loading" element={<Loading />}></Route>
       </Routes>
     </Router>
   );

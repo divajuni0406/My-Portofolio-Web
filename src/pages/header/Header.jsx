@@ -1,30 +1,50 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const Pathname = () => {
     const location = useLocation();
     return location.pathname;
   };
 
+  const IsHeaderVisible = () => {
+    const location = useLocation();
+    if (location.pathname.includes("/portofolio-detail")) {
+      return true;
+    }
+    return false;
+  };
+
+  console.log(IsHeaderVisible(), "jajajajajaajaja");
+
   const handleToggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
-  console.log(isOpen, "kakakakakak");
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
 
   return (
-    <div>
-      <header className="navbar-wrapper">
+    <div className={loading ? "d-none" : ""}>
+      <header
+        className={
+          IsHeaderVisible() ? "navbar-wrapper d-none" : "navbar-wrapper"
+        }
+      >
         <nav className="container d-flex navbar">
           <div>
             <Link to={"/"} className="navBrand">
-              Diva
+              D
             </Link>
           </div>
           <div className="isActive-navbar-pc">
