@@ -23,8 +23,6 @@ const App = () => {
         ></Route>
         <Route path="/about-me" element={<AboutMe />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/contactUs" element={<ContactUs />}></Route>
-        <Route path="/loading" element={<Loading />}></Route>
       </Routes>
     </Router>
   );
