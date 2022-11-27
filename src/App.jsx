@@ -6,9 +6,6 @@ import Contact from "./pages/contact/Contact";
 import AboutMe from "./pages/aboutMe/AboutMe";
 import Portofolio from "./pages/portofolio/Portofolio";
 import PortofolioDetail from "./pages/portofolioDetail/PortofolioDetail";
-import Loading from "./pages/loading/Loading";
-import { ContactUs } from "./pages/contact/ContactUs";
-import "./App.css";
 
 const App = () => {
   return (

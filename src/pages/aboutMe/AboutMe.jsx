@@ -512,7 +512,15 @@ const AboutMe = () => {
                         </em>
                         <p className="company-certificate">Binar Academy</p>
                         <em className="link-title-certificate">
-                          Check It Out Here:{" "}
+                          Check It Out Certificate Here:{" "}
+                          <a
+                            href="https://drive.google.com/file/d/1gtoxfr5HIWecQ4k7rybPEm32ALXm-d_x/view"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="link-certificate"
+                          >
+                            https://drive.google.com/file/d/1gtoxfr5HIWecQ4k7rybPEm32ALXm-d_x/view
+                          </a>
                         </em>
                       </div>
                     </div>
