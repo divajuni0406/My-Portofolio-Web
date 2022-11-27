@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import "./Portofolio.css";
 import gif from "../../assets/myimg/43e2ebe8cc474dc2a7a51248439a7d01.gif";
 import Ecommerce6 from "../../assets/ECommerceProject/ECommerce6.png";
+import suit3 from "../../assets/GameSuitProject/suit3.png";
+import calculator from "../../assets/CalculatorProject/calculator.png";
+import portofolio from "../../assets/myimg/portofolio.png";
 
 const Portofolio = () => {
   const [portofolioSection, setPortofolioSection] = useState("all");
@@ -81,7 +84,7 @@ const Portofolio = () => {
               >
                 <div className="col-lg-3 col-md-5 project-wrapper offset-lg-1">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
+                    <img src={Ecommerce6} alt="ECommerceImg" />
                     <Link to={"/portofolio-detail/1"} className="my-text">
                       View Project
                     </Link>
@@ -90,7 +93,7 @@ const Portofolio = () => {
                 </div>
                 <div className="col-lg-3 col-md-5 project-wrapper">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
+                    <img src={suit3} alt="GameSuitImg" />
                     <Link to={"/portofolio-detail/2"} className="my-text">
                       View Project
                     </Link>
@@ -99,7 +102,7 @@ const Portofolio = () => {
                 </div>
                 <div className="col-lg-3 col-md-5 project-wrapper">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
+                    <img src={portofolio} alt="PortofolioImg" />
                     <Link to={"/portofolio-detail/3"} className="my-text">
                       View Project
                     </Link>
@@ -108,8 +111,10 @@ const Portofolio = () => {
                 </div>
                 <div className="col-lg-3 col-md-5 project-wrapper offset-lg-1">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
-                    <span className="my-text">View Project</span>
+                    <img src={calculator} alt="Calculator" />
+                    <Link to={"/portofolio-detail/3"} className="my-text">
+                      View Project
+                    </Link>
                     <p>Simple Calculator</p>
                   </div>
                 </div>
@@ -126,7 +131,7 @@ const Portofolio = () => {
               >
                 <div className="col-lg-3 col-md-5 project-wrapper offset-lg-1">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
+                    <img src={Ecommerce6} alt="ECommerceImg" />
                     <Link to={"/portofolio-detail/1"} className="my-text">
                       View Project
                     </Link>
@@ -135,7 +140,7 @@ const Portofolio = () => {
                 </div>
                 <div className="col-lg-3 col-md-5 project-wrapper">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
+                    <img src={suit3} alt="GameSuitImg" />
                     <Link to={"/portofolio-detail/2"} className="my-text">
                       View Project
                     </Link>
@@ -144,8 +149,8 @@ const Portofolio = () => {
                 </div>
                 <div className="col-lg-3 col-md-5 project-wrapper">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
-                    <Link to={"/portofolio-detail/3"} className="my-text">
+                    <img src={portofolio} alt="PortofolioImg" />
+                    <Link to={"/"} className="my-text">
                       View Project
                     </Link>
                     <p>My Portofolio Website App</p>
@@ -153,8 +158,10 @@ const Portofolio = () => {
                 </div>
                 <div className="col-lg-3 col-md-5 project-wrapper offset-lg-1">
                   <div className="project-image-wrapper">
-                    <img src={Ecommerce6} alt="" />
-                    <span className="my-text">View Project</span>
+                    <img src={calculator} alt="CalculatorImg" />
+                    <Link to={"/portofolio-detail/3"} className="my-text">
+                      View Project
+                    </Link>
                     <p>Simple Calculator</p>
                   </div>
                 </div>
