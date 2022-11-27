@@ -13,7 +13,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/My-Portofolio-Web" element={<Home />}></Route>
-        <Route path="/portofolio" element={<Portofolio />}></Route>
+        <Route path="/portofoliolklllllllll" element={<Portofolio />}></Route>
         <Route
           path="/portofolio-detail/:id"
           element={<PortofolioDetail />}
