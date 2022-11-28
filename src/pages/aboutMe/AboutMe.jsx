@@ -98,7 +98,7 @@ const AboutMe = () => {
                   years I have to become a senior software developer.
                 </p>
                 <Link
-                  to="/DIVA-JUNI-ARTHA-resume.pdf"
+                  to="/DIVA-JUNI-ARTHA-cv.pdf"
                   target="_blank"
                   download
                   className="btn-cv"
