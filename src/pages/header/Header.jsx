@@ -21,8 +21,6 @@ const Header = () => {
     return false;
   };
 
-  console.log(IsHeaderVisible(), "jajajajajaajaja");
-
   const handleToggleNavbar = () => {
     setIsOpen(!isOpen);
   };

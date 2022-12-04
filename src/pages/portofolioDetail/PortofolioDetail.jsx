@@ -168,8 +168,6 @@ const PortofolioDetail = () => {
     },
   ];
 
-  console.log(isDetailActive, "hhhhhhhhhhhhhhhhhhhhhhh");
-
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {

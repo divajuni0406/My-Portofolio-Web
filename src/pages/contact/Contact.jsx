@@ -23,7 +23,6 @@ const Contact = () => {
 
   const emailValidation = () => {
     const regExp = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
-    console.log(emailValue.length);
     if (emailValue.length === 0) {
       emailRef.current.textContent = "Email is required!";
       setIsError({ ...isError, email: true });
@@ -42,7 +41,6 @@ const Contact = () => {
   };
 
   const nameValidation = () => {
-    console.log("hahahaha", nameValue.length);
     if (nameValue.length === 0) {
       nameRef.current.textContent = "Name is required!";
       setIsError({ ...isError, name: true });
@@ -59,7 +57,6 @@ const Contact = () => {
   };
 
   const subjectValidation = () => {
-    console.log("hahahaha", subjectValue.length);
     if (subjectValue.length === 0) {
       subjectRef.current.textContent = "Subject is required!";
       setIsError({ ...isError, subject: true });
@@ -109,7 +106,6 @@ const Contact = () => {
   // condition for submitting form
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(emailValue.length);
     if (
       Object.keys(isError).length === 0 ||
       isError.name ||
